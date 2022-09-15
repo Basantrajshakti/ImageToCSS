@@ -5,12 +5,19 @@
 }
 
 main {
-  height: 100vh;
+  height: 85vh;
   display: grid;
   grid-template-rows: 1fr 1fr 1fr;
   grid-template-columns: 1fr;
   align-items: center;
   justify-items: center;
+}
+
+h1 {
+  text-align: center;
+  padding: 1.5rem;
+  color: rgb(63, 63, 63);
+  text-decoration: underline;
 }
 
 .processor {
